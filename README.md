@@ -10,6 +10,8 @@ The owner/username of the repo (Matcham89)
 The repo ID (gha-cleanup)
 
 ```bash
-OWNER=
-REPO=
+echo "Provide Owner/User ID"
+read OWNER
+echo "Provide Repo ID"
+read REPO
 ```
