@@ -14,10 +14,6 @@ function delete_runs (){
     done
 }
 
-# echo repo information
-echo $OWNER
-echo $REPO
-
 # delete runs
 for (( ; ; ))
 do 
