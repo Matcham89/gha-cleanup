@@ -1,7 +1,9 @@
 #!/bin/bash
 # input repo information
-OWNER=
-REPO=
+echo "Provide Owner/User ID"
+read OWNER
+echo "Provide Repo ID"
+read REPO
 
 # function to delete manually disabled workflow
 function delete_runs (){
